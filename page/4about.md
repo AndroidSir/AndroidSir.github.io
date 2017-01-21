@@ -13,6 +13,13 @@ type: page
 
 <iframe src="http://image.thermaltake.com/News/db/imgs/press/images/TTFUN/20131015/1/Image00005.jpg" style="border: 0;height: 400px;width: 600px;overflow: hidden;" frameBorder="0"></iframe>
 
+
+就职于青葱时代
+
+<div  align="center">    
+<img src="2.png" width = "800" height = "1500" />
+</div>
+
 就职于青葱时代
 
 学习是一个非常愉快的过程。共同加油！
