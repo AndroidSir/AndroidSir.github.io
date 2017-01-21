@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Android 包含\r\n等特殊字符的String写进File的方法"
+date:   2017-01-21
 categories: "数据持久化"
 tags: "File" "String"
 ---
