@@ -1,14 +1,12 @@
 ---
 layout: post
-title:  "首篇博客"
-date:   2017-01-21 16:24:18 +0800
-categories: "随笔"
-tags: "想法"
+title:  "前端如何写一个精确的倒计时"
+categories: JavaScript
+tags:  countdown JavaScript
+author: HyG
 ---
 
 * content
 {:toc}
 
 学习写博客
-
-
