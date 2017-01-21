@@ -17,7 +17,7 @@ type: page
 就职于青葱时代
 
 <div  align="center">    
-<img src="2.png" width = "800" height = "1500" />
+<img src="http://image.thermaltake.com/News/db/imgs/press/images/TTFUN/20131015/1/Image00005.jpg" width = "800" height = "1500" />
 </div>
 
 就职于青葱时代
