@@ -11,13 +11,10 @@ type: page
 
 ## 关于我
 
-<iframe src="http://image.thermaltake.com/News/db/imgs/press/images/TTFUN/20131015/1/Image00005.jpg" style="border: 0;height: 400px;width: 600px;overflow: hidden;" frameBorder="0"></iframe>
-
-
-就职于青葱时代
+<iframe src="http://image.thermaltake.com/News/db/imgs/press/images/TTFUN/20131015/1/Image00005.jpg" style="border: 0;height: 0px;width: 0px;overflow: hidden;" frameBorder="0"></iframe>
 
 <div  align="center">    
-<img src="http://image.thermaltake.com/News/db/imgs/press/images/TTFUN/20131015/1/Image00005.jpg" width = "800" height = "1500" />
+<img src="http://a2.qpic.cn/psb?/V106cbnY17X3ra/gGeQV9rr*U2ouytbr4XU9Uxpxc.GqwQl83OWpxMprOU!/b/dLIAAAAAAAAA&bo=cgSAAgAAAAAFB9A!&rf=viewer_4" width = "900" height = "400" />
 </div>
 
 就职于青葱时代
