@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Android 包含\r\n等特殊字符的String写进File的方法"
+title:  "将包含换行等特殊字符的String写进File的解决方法"
 categories: "数据持久化"
 tags: "File" "String"
 ---
