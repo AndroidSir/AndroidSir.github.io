@@ -2,7 +2,7 @@
 layout: post
 title:  "将包含换行等特殊字符的String写进File的解决方法"
 categories: "数据持久化"
-tags: "File" "String"
+tags: "File"
 ---
 
 * content
