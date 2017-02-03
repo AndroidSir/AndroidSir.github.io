@@ -3,7 +3,7 @@ layout: post
 title:  "item适配问题"
 date:   2017-02-03
 categories: Android
-tags: 适配 TextView dp sp px HeaderView FooterView
+tags: 适配  dp sp px FooterView
 ---
 
 * content
