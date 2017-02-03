@@ -18,7 +18,7 @@ Android布局的难点在不同机型的适配，在一个手机上显示的正�
 需求：如下图所示的ListView的Item的布局
 
 <div  align="center">    
-<img src="2.png" width = "800" height = "1500" />
+<img src="http://a3.qpic.cn/psb?/V11DxkGh190yEc/7z*hM0gg2LQiXW9IXtuQJT3T5uIvJNQBTxx1m1O1Mh0!/b/dB8BAAAAAAAA&bo=gAJvBAAAAAADB8s!&rf=viewer_4" width = "800" height = "1500" />
 </div>
 
 看到这张效果图的时候，我的第一直觉是判断每个item的高度。由拉弓图可知：150+10+10=170，布局文件的root直接给了如下代码：
@@ -58,9 +58,9 @@ Android布局的难点在不同机型的适配，在一个手机上显示的正�
 	int height = tv.getHeight();						//获取tv的高度 C
 	float lineSpacingExtra = tv.getLineSpacingExtra();  //获取行间距   B
 														//行数设为X
-	/*      因为XA+(X-1)B=C
-			所以有X=(C+B)/(A+B)
-	*/
+	/**      因为XA+(X-1)B=C
+	 *		所以有X=(C+B)/(A+B)
+	 */
 	double targetLines = (MyUtils.dip2px(ctx, 170 - 39 - 16) + lineSpacingExtra) / (lineHeight + lineSpacingExtra);
 	tv.setMaxLines((int) targetLines);
 	tv.setEllipsize(TextUtils.TruncateAt.END);
