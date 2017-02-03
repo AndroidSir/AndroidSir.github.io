@@ -11,6 +11,9 @@ tags: "File"
 
 **问题发现**：百科类详情模块，第一次从后台获取文字介绍的时候，通过抓包发现含有\r\n换行符，且显示在TextView上能够正确的换行，但是通过如下方法将String写进File，再次使用的时候从File中读取的时候会发现不再有换行效果。
 
+
+
+
 **写文件方法**：
 
 	public static void saveJson(String fileName, String info) {
