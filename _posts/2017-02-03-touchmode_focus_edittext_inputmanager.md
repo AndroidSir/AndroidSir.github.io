@@ -14,7 +14,7 @@ tags: EditText TouchMode InputManager
 
 
 
-###View.setFocusableInTouchMode
+### View.setFocusableInTouchMode
 
 大多数Android设备都是触摸屏的，但是实际上Android设备也支持键盘操作，允许通过键盘来完成导航，点击，输入等。
 
@@ -77,7 +77,7 @@ touch mode 在整个系统运行期间都是有效的(在任何activities中). �
 [TouchMode下的focus问题](http://blog.csdn.net/vincent_czz/article/details/6608781)
 [资料2](http://www.fx114.net/qa-89-29940.aspx)
 
-###View.requestFocus()
+### View.requestFocus()
 
     public final boolean requestFocus ()
     
@@ -98,7 +98,7 @@ touch mode 在整个系统运行期间都是有效的(在任何activities中). �
 [requestFocus这个标签是干什么的?](http://www.imooc.com/qadetail/64495)
 
 
-###InputMethodManager
+### InputMethodManager
 
 [关于InputMethodManager的使用方法](https://my.oschina.net/jbcao/blog/61035)
 
