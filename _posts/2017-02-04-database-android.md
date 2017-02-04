@@ -14,11 +14,11 @@ SQLiteOpenHelper是Android提供的一个管理数据库的工具类，用于管
 
 
 
-### 建表：
+### 建表
 
     String createTableSql = "create table tablename (_id integer primary key autoincrement, key valueType)";
 
-### 插入：
+### 插入
 
 sql:带占位符的插入：
 
@@ -50,7 +50,7 @@ android:
     Returns:
     the row ID of the newly inserted row, or -1 if an error occurred
 
-### 删除：
+### 删除
 
 sql:
 
@@ -63,7 +63,7 @@ android:
       java.lang.String[] whereArgs)
 	//Convenience method for deleting rows in the database.
 
-### 修改：
+### 修改
 
 sql:带占位符的修改：
 
@@ -93,7 +93,7 @@ android：
     String[] args = {sendUserQcCode, receiveUserQcCode};
     int i = db.update(ReceiveRoseDBHelper.TABLE_NAME_ROSE, cv, "sendUserQcCode=? AND receiveUserQcCode=?", args);
 
-### 查询：(query,rawQuery)
+### 查询(query,rawQuery)
 
     String sql = "select keyname from tablename [where]"
 
