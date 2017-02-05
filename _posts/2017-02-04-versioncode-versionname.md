@@ -9,7 +9,7 @@ tags: Android VersionCode VersionName
 * content
 {:toc}
 
-Google为APK定义了两个关于版本属性：VersionCode和VersionName，他们有不同的用途。VersionCode与VersionName即可以作为清单文件中`<manifest>`标签的属性进行赋值，又可以在主module的`build.gradle`文件中给值。本文就这两个概念进行学习。
+Google为APK定义了两个关于版本属性：VersionCode和VersionName，他们有不同的用途。VersionCode与VersionName即可以作为清单文件中`<manifest>`标签的属性进行赋值，又可以在主module的`build.gradle`文件中给值。当两者同时赋值的时候，以`build.gradle`文件中的值为准。本文就这两个概念进行学习。
 
 
 
