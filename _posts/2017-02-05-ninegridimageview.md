@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "开源控件--NineGridImageView--使用教程"
+title:  "NineGridImageView"
 date:   2017-02-05
 categories: 使用教程
 tags: 使用教程 开源控件 
