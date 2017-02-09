@@ -2,7 +2,7 @@
 layout: post
 title:  "岛屿条目展示总结"
 date:   2017-02-09
-categories: 总结
+categories: summary
 tags: ListView ScrollView 
 ---
 
@@ -10,6 +10,9 @@ tags: ListView ScrollView
 {:toc}
 
 在做友爱岛模块的时候，有列表展示的需求。
+
+
+
 
 方案之一是使用scrollView包含线性布局，线性布局再包含若干子布局，以达到滑动的效果。其中要展示的条目布局比较简单，不需要包含这些条目的属性，比如“我创建的”，“我发表的”等等，
 
