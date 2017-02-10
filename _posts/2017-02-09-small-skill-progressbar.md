@@ -2,7 +2,7 @@
 layout: post
 title:  "小技巧之ProgressBar"
 date:   2017-02-09
-categories: 小技巧
+categories: 手刃需求
 tags: ProgressBar 外观 监听
 ---
 

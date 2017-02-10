@@ -2,8 +2,8 @@
 layout: post
 title:  "Android数据库操作"
 date:   2017-02-04
-categories: 数据持久化
-tags: Android sql SQLiteOpenHelper
+categories: 知识点
+tags: 数据持久化 sql SQLiteOpenHelper
 ---
 
 * content

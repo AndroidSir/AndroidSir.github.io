@@ -3,7 +3,7 @@ layout: post
 title:  "Property Animation(属性动画)"
 date:   2017-02-05
 categories: 知识点
-tags: Android Animator 属性动画
+tags: Animator 属性动画
 ---
 
 * content

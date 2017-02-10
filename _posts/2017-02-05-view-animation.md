@@ -3,7 +3,7 @@ layout: post
 title:  "View Animation(视图动画)"
 date:   2017-02-05
 categories: 知识点
-tags: Android Animation 视图动画
+tags: Animation 视图动画
 ---
 
 * content

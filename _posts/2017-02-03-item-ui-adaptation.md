@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "item适配问题"
+title:  "Item适配问题"
 date:   2017-02-03
-categories: Android
-tags: 适配  dp sp px FooterView
+categories: 手刃bug
+tags: 适配  dp sp px
 ---
 
 * content

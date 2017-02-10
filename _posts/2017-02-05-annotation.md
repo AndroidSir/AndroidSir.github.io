@@ -3,7 +3,7 @@ layout: post
 title:  "Java Annotation(注解)"
 date:   2017-02-05
 categories: 知识点
-tags: Java Annotation AnnotatedElement
+tags: 注解
 ---
 
 * content

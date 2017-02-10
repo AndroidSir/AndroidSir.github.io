@@ -2,7 +2,7 @@
 layout: post
 title:  "Android文件缓存的路径总结"
 date:   2017-02-03
-categories: 数据持久化
+categories: 知识点
 tags: File Environment 数据持久化
 ---
 

@@ -2,8 +2,8 @@
 layout: post
 title:  "小技巧之Popupwindow"
 date:   2017-02-05
-categories: 小技巧
-tags: Popupwindow 小技巧
+categories: 手刃需求
+tags: Popupwindow
 ---
 
 * content

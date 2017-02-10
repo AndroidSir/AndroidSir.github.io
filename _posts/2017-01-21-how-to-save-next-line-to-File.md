@@ -2,8 +2,8 @@
 layout: post
 title:  "将包含换行等特殊字符的String写进File的解决方法"
 date:   2017-01-21
-categories: "数据持久化"
-tags: "File"
+categories: 知识点
+tags: File IO流 数据持久化
 ---
 
 * content

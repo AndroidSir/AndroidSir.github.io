@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Summary之罗曼蒂克"
+title:  "模块总结之罗曼蒂克"
 date:   2017-02-05
-categories: Summary
-tags: Summary
+categories: 模块总结
+tags: 图片虚化 ViewPager灵敏度 ViewPager换页时间
 ---
 
 * content

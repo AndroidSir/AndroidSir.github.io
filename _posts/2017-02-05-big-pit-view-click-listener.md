@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "View的点击监听"
+title:  "View的Listener的设置"
 date:   2017-02-05
-categories: 坑
-tags: View Android
+categories: 手刃bug
+tags: Listener
 ---
 
 * content

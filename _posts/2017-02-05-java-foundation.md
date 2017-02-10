@@ -3,7 +3,7 @@ layout: post
 title:  "Java 基础"
 date:   2017-02-05
 categories: 知识点
-tags: Java
+tags: final 堆栈 多态 泛型
 ---
 
 * content

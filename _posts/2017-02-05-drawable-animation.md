@@ -3,7 +3,7 @@ layout: post
 title:  "Drawable Animation(帧动画)"
 date:   2017-02-05
 categories: 知识点
-tags: Android AnimationDrawable 帧动画
+tags: AnimationDrawable 帧动画
 ---
 
 * content

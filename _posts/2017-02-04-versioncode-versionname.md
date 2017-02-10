@@ -3,7 +3,7 @@ layout: post
 title:  "Android开发中VersionCode与VersionName概述"
 date:   2017-02-04
 categories: 知识点
-tags: Android VersionCode VersionName
+tags: VersionCode VersionName
 ---
 
 * content

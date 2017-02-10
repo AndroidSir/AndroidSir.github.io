@@ -2,8 +2,8 @@
 layout: post
 title:  "一句话总结设计模式"
 date:   2017-02-03
-categories: 设计模式
-tags: 设计模式 Java
+categories: 知识点
+tags: 设计模式
 ---
 
 * content

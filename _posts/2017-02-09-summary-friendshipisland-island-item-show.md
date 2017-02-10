@@ -2,7 +2,7 @@
 layout: post
 title:  "岛屿条目展示总结"
 date:   2017-02-09
-categories: summary
+categories: 模块总结
 tags: ListView ScrollView 
 ---
 

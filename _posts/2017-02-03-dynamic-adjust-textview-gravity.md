@@ -2,7 +2,7 @@
 layout: post
 title:  "动态设置TextView的Gravity"
 date:   2017-02-03
-categories: Android
+categories: 手刃需求
 tags: 适配  TextView Gravity 
 ---
 

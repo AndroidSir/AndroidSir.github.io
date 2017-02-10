@@ -3,7 +3,7 @@ layout: post
 title:  "序列化"
 date:   2017-02-05
 categories: 知识点
-tags: Android Java 序列化
+tags: 序列化
 ---
 
 * content

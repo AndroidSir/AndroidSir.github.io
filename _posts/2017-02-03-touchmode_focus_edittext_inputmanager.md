@@ -2,7 +2,7 @@
 layout: post
 title:  "围绕EditText展开的知识点"
 date:   2017-02-03
-categories: Android
+categories: 知识点
 tags: EditText TouchMode InputManager
 ---
 
