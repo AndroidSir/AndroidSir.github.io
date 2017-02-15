@@ -65,3 +65,8 @@ Android中一次完整的事件传递主要包括三个阶段，分别是事件�
 	</resources>  
 
 format是值该属性的取值类型，共有：string,color,dimension,integer,enum,reference,float,boolean,fraction,flag
+
+
+## 参考自
+
+[Android View相关核心知识问答](http://mp.weixin.qq.com/s?__biz=MzAxMTI4MTkwNQ==&mid=2650822034&idx=1&sn=4a26335f98793e90677d5f8dcb9414c9&chksm=80b7810cb7c0081a44d961b3c9fa642d689ea02ed76c12191a8e902d2d3f2141c37a48fa25d8&mpshare=1&scene=23&srcid=0213CRHOTbKXc4JPRvB4aAvc#rd)
