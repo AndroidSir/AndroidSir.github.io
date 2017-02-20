@@ -14,6 +14,12 @@ tags: final 堆栈 多态 泛型
 
 
 
+## 代码编写总则
+
+分析： 从具体到抽象
+
+实现：从抽象到具体
+
 ## 内存之栈和堆
 
 [Java堆内存的10个要点](http://blog.jobbole.com/13373/)
@@ -50,6 +56,168 @@ final修饰成员变量的初始化时机
 2. 构造方法：创建子类对象的时候，访问父类的构造方法，对父类的数据进行初始化
 3. 成员方法：编译看左边，运行看右边
 4. 静态方法：编译看左边，运行看左边（静态和类相关，算不上重写，所以，访问还是左边的）
+
+多态的弊端：不能使用子类的特有功能。   
+
+多态的分类：
+
+1. 具体类多态（几乎不用）
+2. 抽象类多态（常用）
+3. 接口多态（最常用）                                                                                                                                                                                                                                                                                                                     
+
+多态的例子：
+	
+	class A {
+	        public void show() {
+	            show2();
+	        }
+	
+	        public void show2() {
+	            System.out.println("我");
+	        }
+	    }
+	
+	    class B extends A {
+	        public void show2() {
+	            System.out.println("爱");
+	        }
+	    }
+	
+	    class C extends B {
+	        public void show() {
+	            super.show();
+	        }
+	
+	        public void show2() {
+	            System.out.println("你");
+	        }
+	    }
+	
+	    public class DuoTaiTest {
+	        public static void main(String[] args) {
+	            A a = new B();
+	            a.show();
+	            B b = new C();
+	            b.show();
+	        }
+	    }
+
+通过运行该例子，得到的结果是“爱你”。分析如下：
+
+a.show():运行的其实是B类对象的show（）方法，而类B没有重写类A的show（）方法，因此B类对象的show（）方法是继承自A类的，用于执行show2（）方法，因此最终结果是通过B类的show（）方法，调用B类的show2（）方法。
+
+b.show():运行的是C类对象的show（）方法，而C类对象的show（）方法调用的是B类对象的show（）方法，而B类对象的show()方法是去调用show2（）方法，那么这个show2（）方法是C的还是B的呢？结果显示是C类的show2（）方法被调用，为什么呢，看下边的代码：
+
+		class A {
+	        public void ele() {
+	        	//System.out.println(this.getClass().getSimpleName()+"ele");
+				//quchifan();//等同于下一句
+	            this.quchifan();
+	        }
+	
+	        public void quchifan() {
+	            System.out.println("eat water");
+	        }
+	    }
+	
+	    class B extends A {
+			/*public void ele() {
+	        	//System.out.println(this.getClass().getSimpleName()+"ele");
+				//quchifan();//等同于下一句
+	            this.quchifan();
+	        }*/
+
+	        public void quchifan() {
+	            System.out.println("eat xiaomi");
+	        }
+	    }
+	
+	    class C extends B {
+	        public void ele() {
+	            super.ele();//儿子饿了，问爸爸饿了要怎么做，爸爸说：饿了要吃饭。因此儿子就去吃饭了。不是说儿子饿了，就对爸爸说：爸爸，我都饿了，你也必须饿。
+				//this.quchifan();
+	        }
+	
+	        public void quchifan() {
+	            System.out.println("eat dami");
+	        }
+	    }
+	
+	    public class DuoTaiTest2 {
+	        public static void main(String[] args) {
+	            A a = new B();
+	            a.ele();
+	            B b = new C();
+	            b.ele();
+	        }
+	    }
+
+B类继承A类的时候，没有重写ele()方法，因此B类就从A类继承了public的ele()方法，如B类注释所示，从结果可以发现**父类的this粘贴到子类的时候this是不会变为super的，而依然是this**。因此C类的ele()方法体的两句话其实是等价的，第二句话就是将父类的ele（）方法体粘贴过来的结果，也就是说，父类的方法调用可以认为是父类方法体的粘贴。
+
+**结论**：让子类具有和父类一样的public方法的时候（方法继承）可以有如下三种方法（一般来说三者等价）：
+
+1. 不写，系统默认继承；
+2. 将父类的方法签名及方法体完全复制到子类中，父类中省略的this到子类中依然是this而非super；（最容易理解）
+3. 重写方法时**仅仅**通过super关键字调用父类的同名方法，此时不应该叫方法重写，而是方法继承。
+
+什么时候不等价呢？当父类的方法体中使用了私有的属性或方法的时候，子类是不能够通过复制父类的方法签名及方法体进行方法继承（非重写）的，此时只有1和3两种办法进行方法继承。代码如下：
+
+1. 若父类的public方法中使用到了父类的private成员变量及父类的public方法，子类继承该public方法的时候，使用的是**父类**private成员变量以及**自己**继承的public方法。除非子类定义同名的成员变量。
+2. 若父类的public方法中使用到了父类的private和public方法，子类继承该public方法的时候，使用的是**父类**的private方法以及**自己**继承的public方法。
+
+类似于模范方法模式，父类规定好了若干方法执行的流程，其中一些方法可以让子类自由实现，其中关键的方法则是父类已经定义好的，不能被子类修改的。当子类重写好了可以重写的方法之后，让父类执行规定的流程，父类则会顺序调用子类实现的方法以及自己定义好的不可让子类自由实现的方法。
+
+## 抽象类
+
+抽象**类的特点**：
+
+1. 抽象类和抽象方法必须用abstract关键字修饰；
+2. 抽象类中不一定有抽象方法，但是有抽象方法的类必须定义为抽象类；
+3. 抽象类不能被实例化：
+	+ 因为它不是具体的；
+	+ 抽象类不能实例化，但是有构造方法，用途是：用于子类访问父类数据的初始化
+4. 抽象类的子类：
+	+ 如果不想重写抽象方法，该子类仍是一个抽象类；
+	+ 若重写了所有的抽象方法，这个时候子类就是一个具体的类了，可以不用abstract关键字来修饰。
+
+抽象类的**成员特点**：
+
+1. 成员变量：既可以是变量，也可以是常量；
+2. 构造方法：用于子类访问父类数据的初始化；
+3. 成员方法：既可以是抽象的，也可以是非抽象的。
+
+抽象类的成员**方法特点**：
+
+1. 抽象方法：强制要求子类做的事情
+2. 非抽象方法：子类继承的事情，提高代码复用性。
+
+问：一个类如果没有抽象方法，可不可以定义为抽象类？如果可以，有什么意义？
+
+答：可以，不让创建对象（构造方法私有化绝大数情况是为了单例的需要，而非不让实例化）
+
+abstract不能可哪些关键字共存？
+
+	private 冲突
+	
+	final 冲突
+	
+	static 无意义
+
+## 接口
+
+接口的作用：**扩展**与**规范**
+
+问：接口如何实例化？   答：按照多态的方式进行接口的实例化。、
+
+接口的子类：
+
+1. 可以使具体类，该类要重写接口中的所有抽象方法；
+2. 可以使抽象类，但是意义不大：如下代码
+
+	abstract MyClass implement MyInterface{
+		//MyInterface中定义了很多抽象方法，但是MyClass但不用重写，且不会报错
+	}
+
 
 ## 泛型（参数化类型）
 
