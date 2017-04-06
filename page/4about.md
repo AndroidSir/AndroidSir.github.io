@@ -35,6 +35,6 @@ type: page
 
 [青葱时代](http://www.qcsd99.com) \| [百度](http://www.baidu.com/) \| [Reverland](http://reverland.org/) \| [ZhiLi](http://lizhipower.github.io/) \| [Simmer](http://simmer-jun.github.io/) \| [awthink](http://awthink.net/) \| [Aralic](http://aralic.github.io/) \| [zchen9](http://www.chen9.info/) \| [wuhuaji](http://wuhuaji.me/) \| [lisheng](http://www.lishengcn.cn/) \| [薛彬XueBin](http://axuebin.com/blog/) \| [TBOOX](http://www.tboox.org/cn/)
 
-	## Comments
+//## Comments
 	
-	{% include comments.html %}
+//{% include comments.html %}
