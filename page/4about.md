@@ -11,8 +11,6 @@ type: page
 
 ## 关于我
 
-<iframe src="http://image.thermaltake.com/News/db/imgs/press/images/TTFUN/20131015/1/Image00005.jpg" style="border: 0;height: 0px;width: 0px;overflow: hidden;" frameBorder="0"></iframe>
-
 <div  align="center">    
 <img src="http://a2.qpic.cn/psb?/V106cbnY17X3ra/gGeQV9rr*U2ouytbr4XU9Uxpxc.GqwQl83OWpxMprOU!/b/dLIAAAAAAAAA&bo=cgSAAgAAAAAFB9A!&rf=viewer_4" width = "900" height = "400" />
 </div>
@@ -27,7 +25,7 @@ type: page
 ## 联系我
 
 * GitHub：[AndroidSir](https://github.com/AndroidSir)
-* email：AndroidSir@qq.com
+* Email：AndroidSir@qq.com
 
 ## 关于本站
 
@@ -39,7 +37,7 @@ type: page
 
 ## 友情链接
 
-[青葱时代](http://www.qcsd99.com) \| [Anotherhome](https://www.anotherhome.net) \| [Reverland](http://reverland.org/) \| [ZhiLi](http://lizhipower.github.io/) \| [Simmer](http://simmer-jun.github.io/) \| [awthink](http://awthink.net/) \| [Aralic](http://aralic.github.io/) \| [zchen9](http://www.chen9.info/) \| [wuhuaji](http://wuhuaji.me/) \| [lisheng](http://www.lishengcn.cn/) \| [薛彬XueBin](http://axuebin.com/blog/) \| [TBOOX](http://www.tboox.org/cn/)
+[青葱时代](http://www.qcsd99.com) \| [百度](http://www.baidu.com/) \| [Reverland](http://reverland.org/) \| [ZhiLi](http://lizhipower.github.io/) \| [Simmer](http://simmer-jun.github.io/) \| [awthink](http://awthink.net/) \| [Aralic](http://aralic.github.io/) \| [zchen9](http://www.chen9.info/) \| [wuhuaji](http://wuhuaji.me/) \| [lisheng](http://www.lishengcn.cn/) \| [薛彬XueBin](http://axuebin.com/blog/) \| [TBOOX](http://www.tboox.org/cn/)
 
 ## Comments
 
