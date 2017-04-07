@@ -37,4 +37,4 @@ type: page
 
 ## Comments
 	
-[{% include comments.html %}]()
+大括号百分号 include comments.html 百分号大括号
