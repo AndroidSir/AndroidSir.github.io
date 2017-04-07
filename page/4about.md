@@ -12,7 +12,7 @@ type: page
 ## 关于我
 
 <div  align="center">    
-<img src="http://a3.qpic.cn/psb?/V11DxkGh190yEc/kYBKAH7GQa5iXkMUAo08u*MuVfw8DXWHbSlb6rG3tTE!/b/dBkBAAAAAAAA&bo=cgSAAgAAAAARB8Q!&rf=viewer_4" width = "1138" height = "640" />
+<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1491488096561&di=2f34319fbd034b75f2c6d07cf28493ea&imgtype=0&src=http%3A%2F%2Fi2.img16888.com%2Fupload%2FImages%2F2016%2F04%2F2016040309250151682_550.jpg" width = "457" height = "332" />
 </div>
 
 就职于青葱时代
