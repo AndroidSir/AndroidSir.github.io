@@ -12,7 +12,7 @@ type: page
 ## 关于我
 
 <div  align="center">    
-<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1491488096561&di=2f34319fbd034b75f2c6d07cf28493ea&imgtype=0&src=http%3A%2F%2Fi2.img16888.com%2Fupload%2FImages%2F2016%2F04%2F2016040309250151682_550.jpg" width = "457" height = "332" />
+<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1491544477588&di=4a806dd35722469ec3c8407ae2c100ee&imgtype=0&src=http%3A%2F%2Ffarm3.staticflickr.com%2F2754%2F4400980537_d36d601e8c_z.jpg%3Fzz%3D1" width = "500" height = "206" />
 </div>
 
 就职于青葱时代
@@ -33,8 +33,8 @@ type: page
 
 ## 友情链接
 
-[青葱时代](http://www.qcsd99.com) \| [百度](http://www.baidu.com/) \| [Reverland](http://reverland.org/) \| [ZhiLi](http://lizhipower.github.io/) \| [Simmer](http://simmer-jun.github.io/) \| [awthink](http://awthink.net/) \| [Aralic](http://aralic.github.io/) \| [zchen9](http://www.chen9.info/) \| [wuhuaji](http://wuhuaji.me/) \| [lisheng](http://www.lishengcn.cn/) \| [薛彬XueBin](http://axuebin.com/blog/) \| [TBOOX](http://www.tboox.org/cn/)
+[青葱时代](http://www.qcsd99.com) \| [百度](http://www.baidu.com/) \| [Github](http://www.github.com/) \| [新浪新闻](http://news.sina.com.cn/) \| [人人贷](https://www.we.com/) \| [谷歌](https://www.google.co.jp)
 
-//## Comments
+## Comments
 	
-//{% include comments.html %}
+[{% include comments.html %}]()
