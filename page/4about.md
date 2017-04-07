@@ -34,7 +34,3 @@ type: page
 ## 友情链接
 
 [青葱时代](http://www.qcsd99.com) \| [百度](http://www.baidu.com/) \| [Github](http://www.github.com/) \| [新浪新闻](http://news.sina.com.cn/) \| [人人贷](https://www.we.com/) \| [谷歌](https://www.google.co.jp)
-
-## Comments
-	
-大括号百分号 include comments.html 百分号大括号
