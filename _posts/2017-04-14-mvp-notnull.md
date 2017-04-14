@@ -152,8 +152,8 @@ Presenter层对象服务View层，对下使用Model层。若Presenter层一直�
 	    }
 	
 	    //获取View层
-	    public T getViewLayer() {
-	            return mViewRef.get();
+	    private T getViewLayer() {
+	        return mViewRef.get();
 	    }
 	
 	    //判断是否与View建立了关联
@@ -163,7 +163,7 @@ Presenter层对象服务View层，对下使用Model层。若Presenter层一直�
 	
 	    protected void viewLayerDo(ViewLayerCallBack<T> callBack) {
 	        if (isViewLayerAvailable()) {
-	            callBack.doSomething(mViewRef.get());
+	            callBack.doSomething(getViewLayer());
 	        }
 	    }
 	
@@ -173,6 +173,10 @@ Presenter层对象服务View层，对下使用Model层。若Presenter层一直�
 	            mViewRef.clear();
 	            mViewRef = null;
 	        }
+	    }
+	
+	    public interface ViewLayerCallBack<T> {
+	        void doSomething(T t);
 	    }
 	}
 
@@ -185,6 +189,6 @@ Presenter层对象服务View层，对下使用Model层。若Presenter层一直�
 	    }
 	});
 
-哟西，这才是问题解决的正确姿势啊。即减少了多于的重复`try...catch`语句，且在解决问题的根本逻辑上也说的过去：能不发生异常就不要发生异常，而非异常发生时该如何处理。前者是防患于未然（不让发生火灾），后者是解决问题要趁早（消防灭火）。
+哟西，这才是问题解决的正确姿势啊，代码如此的精简，我是如此的高兴。即减少了多于的重复`try...catch`语句，且在解决问题的根本逻辑上也说的过去：能不发生异常就不要发生异常，而非异常发生时该如何处理。前者是防患于未然（不让发生火灾），后者是解决问题要趁早（消防灭火）。
 
 好了，写到这了，我要删除那些多于的`try...catch`语句了，谁让我有强迫症呢...
